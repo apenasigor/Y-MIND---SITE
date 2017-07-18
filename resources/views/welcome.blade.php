@@ -24,25 +24,11 @@
                     </li>
 
 
-                    <li class="tab" role="presentation">
-                        <a href="#search" id="tab-search" aria-controls="tabpanel-search" role="tab">
-                            <i class="fa fa-fw fa-search" aria-hidden="true"></i>
-                            Search
-                        </a>
-                    </li>
+
                 </ul>
                 <div class="tabpanel-set force">
                     <div id="tabpanel-search" class="panel-search tabpanel column" aria-labelledby="tab-search" aria-hidden="true" role="tabpanel">
                         <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Fechar</span></button>
-                        <div class="search-box force">
-                            <form action="{{url('#')}}" method="POST">
-                                {{ csrf_field() }}
-                                <input type="hidden" name="c" value="gsa">
-                                <label for="search-gsa-826">Search</label>
-                                <input id="search-gsa-826" class="column" type="text" name="q" value="" autocomplete="off">
-                                <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">Search</span></button>
-                            </form>
-                        </div>
                         <div class="ga-search-suggestions">
                             <h4>Common Searches</h4>
                             <ul class="ga-suggestion-set">
