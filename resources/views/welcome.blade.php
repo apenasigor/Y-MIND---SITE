@@ -131,7 +131,7 @@
                        <div class="fundoimagem">
 
 
-                                <div style="width: 100%; height: 600px;">
+                                <div style="width: 100%;">
                                 <img src="{{asset('/images/neuroservices/bgymind.png')}}" alt="we mind - neuro services" >
                                 </div>
 
@@ -149,7 +149,7 @@
         <div id="main-content" role="main">
 
             <div id="bbTopFactsSection" class="top-facts big-section section" role="region" aria-label="Sobre nós">
-                <br><br>
+
                 <div class="sticky">
 
                     <div class="center">
@@ -160,7 +160,7 @@
                             <div class="section-intro block" data-block-id="19563">
 
                                 <p class="nossoEspecialista">Young Minds</p>
-                                <p class="nossoEspecialistaP">Young minds of today will shape tomorrow’s society. We care for young minds by promoting mental health and preventing mental disorders.<br>
+                                <p class="pServicos">Young minds of today will shape tomorrow’s society. We care for young minds by promoting mental health and preventing mental disorders.<br>
                                     Our aim is to encourage young minds to develop their full potential and empower them to deal with mental health problems.
 
                             </div>
@@ -206,7 +206,7 @@
                                         <!---->
                                         <line style="stroke-dasharray: none; stroke-dashoffset: 0px;" stroke-width="2" stroke="#7d5fa6" y2="78%" x2="76%" y1="50%" x1="50%"></line>
                                     </svg>
-                                    <div style="top: 50%; left: 50%;" class="jhu division bubble column shrink"> <span class="text" style="left: 25%;">Y-MIND <br> Programs</span> </div>
+                                    <div style="top: 50%; left: 50%;" class="jhu division bubble column shrink"> <span class="text testing" style="left: 25%;">Y-MIND <br> Programs</span> </div>
                                     <a href="{{url("/programs/Prisma")}}" >
                                         <button style="top: 80%; left: 56%; cursor: pointer;" class="division bubble button column bubble-1 applied-physics-laboratory ">
                                             <span class="text">Psychoses and Bipolar <br> <span style="font-weight: lighter">PRISMA </span></span>

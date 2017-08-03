@@ -55,26 +55,6 @@
     <link rel="stylesheet" href="{{asset('/css/home-c67872ce6d.css')}}">
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <style>
         .alert-on .identity-stripe {
             border-top-color: #2C2C33;
